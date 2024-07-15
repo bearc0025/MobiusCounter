@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964A6F862C457F910098B229 /* MobiusCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6F852C457F910098B229 /* MobiusCounterApp.swift */; };
+		964A6F882C457F910098B229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6F872C457F910098B229 /* ContentView.swift */; };
+		964A6F8A2C457F920098B229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964A6F892C457F920098B229 /* Assets.xcassets */; };
+		964A6F8D2C457F920098B229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964A6F8C2C457F920098B229 /* Preview Assets.xcassets */; };
+		964A6F972C457F930098B229 /* MobiusCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6F962C457F930098B229 /* MobiusCounterTests.swift */; };
+		964A6FA12C457F930098B229 /* MobiusCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6FA02C457F930098B229 /* MobiusCounterUITests.swift */; };
+		964A6FA32C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6FA22C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		964A6F932C457F930098B229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964A6F7A2C457F910098B229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964A6F812C457F910098B229;
+			remoteInfo = MobiusCounter;
+		};
+		964A6F9D2C457F930098B229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964A6F7A2C457F910098B229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964A6F812C457F910098B229;
+			remoteInfo = MobiusCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		964A6F822C457F910098B229 /* MobiusCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964A6F852C457F910098B229 /* MobiusCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusCounterApp.swift; sourceTree = "<group>"; };
+		964A6F872C457F910098B229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		964A6F892C457F920098B229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		964A6F8C2C457F920098B229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		964A6F922C457F930098B229 /* MobiusCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		964A6F962C457F930098B229 /* MobiusCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusCounterTests.swift; sourceTree = "<group>"; };
+		964A6F9C2C457F930098B229 /* MobiusCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		964A6FA02C457F930098B229 /* MobiusCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusCounterUITests.swift; sourceTree = "<group>"; };
+		964A6FA22C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964A6F7F2C457F910098B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964A6F8F2C457F930098B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964A6F992C457F930098B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964A6F792C457F910098B229 = {
+			isa = PBXGroup;
+			children = (
+				964A6F842C457F910098B229 /* MobiusCounter */,
+				964A6F952C457F930098B229 /* MobiusCounterTests */,
+				964A6F9F2C457F930098B229 /* MobiusCounterUITests */,
+				964A6F832C457F910098B229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964A6F832C457F910098B229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964A6F822C457F910098B229 /* MobiusCounter.app */,
+				964A6F922C457F930098B229 /* MobiusCounterTests.xctest */,
+				964A6F9C2C457F930098B229 /* MobiusCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964A6F842C457F910098B229 /* MobiusCounter */ = {
+			isa = PBXGroup;
+			children = (
+				964A6F852C457F910098B229 /* MobiusCounterApp.swift */,
+				964A6F872C457F910098B229 /* ContentView.swift */,
+				964A6F892C457F920098B229 /* Assets.xcassets */,
+				964A6F8B2C457F920098B229 /* Preview Content */,
+			);
+			path = MobiusCounter;
+			sourceTree = "<group>";
+		};
+		964A6F8B2C457F920098B229 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				964A6F8C2C457F920098B229 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		964A6F952C457F930098B229 /* MobiusCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				964A6F962C457F930098B229 /* MobiusCounterTests.swift */,
+			);
+			path = MobiusCounterTests;
+			sourceTree = "<group>";
+		};
+		964A6F9F2C457F930098B229 /* MobiusCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				964A6FA02C457F930098B229 /* MobiusCounterUITests.swift */,
+				964A6FA22C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift */,
+			);
+			path = MobiusCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964A6F812C457F910098B229 /* MobiusCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964A6FA62C457F930098B229 /* Build configuration list for PBXNativeTarget "MobiusCounter" */;
+			buildPhases = (
+				964A6F7E2C457F910098B229 /* Sources */,
+				964A6F7F2C457F910098B229 /* Frameworks */,
+				964A6F802C457F910098B229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiusCounter;
+			productName = MobiusCounter;
+			productReference = 964A6F822C457F910098B229 /* MobiusCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		964A6F912C457F930098B229 /* MobiusCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964A6FA92C457F930098B229 /* Build configuration list for PBXNativeTarget "MobiusCounterTests" */;
+			buildPhases = (
+				964A6F8E2C457F930098B229 /* Sources */,
+				964A6F8F2C457F930098B229 /* Frameworks */,
+				964A6F902C457F930098B229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964A6F942C457F930098B229 /* PBXTargetDependency */,
+			);
+			name = MobiusCounterTests;
+			productName = MobiusCounterTests;
+			productReference = 964A6F922C457F930098B229 /* MobiusCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		964A6F9B2C457F930098B229 /* MobiusCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964A6FAC2C457F930098B229 /* Build configuration list for PBXNativeTarget "MobiusCounterUITests" */;
+			buildPhases = (
+				964A6F982C457F930098B229 /* Sources */,
+				964A6F992C457F930098B229 /* Frameworks */,
+				964A6F9A2C457F930098B229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964A6F9E2C457F930098B229 /* PBXTargetDependency */,
+			);
+			name = MobiusCounterUITests;
+			productName = MobiusCounterUITests;
+			productReference = 964A6F9C2C457F930098B229 /* MobiusCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964A6F7A2C457F910098B229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					964A6F812C457F910098B229 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					964A6F912C457F930098B229 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 964A6F812C457F910098B229;
+					};
+					964A6F9B2C457F930098B229 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 964A6F812C457F910098B229;
+					};
+				};
+			};
+			buildConfigurationList = 964A6F7D2C457F910098B229 /* Build configuration list for PBXProject "MobiusCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964A6F792C457F910098B229;
+			productRefGroup = 964A6F832C457F910098B229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964A6F812C457F910098B229 /* MobiusCounter */,
+				964A6F912C457F930098B229 /* MobiusCounterTests */,
+				964A6F9B2C457F930098B229 /* MobiusCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964A6F802C457F910098B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964A6F8D2C457F920098B229 /* Preview Assets.xcassets in Resources */,
+				964A6F8A2C457F920098B229 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964A6F902C457F930098B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964A6F9A2C457F930098B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964A6F7E2C457F910098B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964A6F882C457F910098B229 /* ContentView.swift in Sources */,
+				964A6F862C457F910098B229 /* MobiusCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964A6F8E2C457F930098B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964A6F972C457F930098B229 /* MobiusCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964A6F982C457F930098B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964A6FA32C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift in Sources */,
+				964A6FA12C457F930098B229 /* MobiusCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		964A6F942C457F930098B229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964A6F812C457F910098B229 /* MobiusCounter */;
+			targetProxy = 964A6F932C457F930098B229 /* PBXContainerItemProxy */;
+		};
+		964A6F9E2C457F930098B229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964A6F812C457F910098B229 /* MobiusCounter */;
+			targetProxy = 964A6F9D2C457F930098B229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		964A6FA42C457F930098B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		964A6FA52C457F930098B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964A6FA72C457F930098B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobiusCounter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobiusCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		964A6FA82C457F930098B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobiusCounter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobiusCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		964A6FAA2C457F930098B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobiusCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiusCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobiusCounter";
+			};
+			name = Debug;
+		};
+		964A6FAB2C457F930098B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobiusCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiusCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobiusCounter";
+			};
+			name = Release;
+		};
+		964A6FAD2C457F930098B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobiusCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiusCounter;
+			};
+			name = Debug;
+		};
+		964A6FAE2C457F930098B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobiusCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiusCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964A6F7D2C457F910098B229 /* Build configuration list for PBXProject "MobiusCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964A6FA42C457F930098B229 /* Debug */,
+				964A6FA52C457F930098B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964A6FA62C457F930098B229 /* Build configuration list for PBXNativeTarget "MobiusCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964A6FA72C457F930098B229 /* Debug */,
+				964A6FA82C457F930098B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964A6FA92C457F930098B229 /* Build configuration list for PBXNativeTarget "MobiusCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964A6FAA2C457F930098B229 /* Debug */,
+				964A6FAB2C457F930098B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964A6FAC2C457F930098B229 /* Build configuration list for PBXNativeTarget "MobiusCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964A6FAD2C457F930098B229 /* Debug */,
+				964A6FAE2C457F930098B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964A6F7A2C457F910098B229 /* Project object */;
+}
