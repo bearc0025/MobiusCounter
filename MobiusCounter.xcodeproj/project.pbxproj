@@ -14,6 +14,7 @@
 		964A6F972C457F930098B229 /* MobiusCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6F962C457F930098B229 /* MobiusCounterTests.swift */; };
 		964A6FA12C457F930098B229 /* MobiusCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6FA02C457F930098B229 /* MobiusCounterUITests.swift */; };
 		964A6FA32C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6FA22C457F930098B229 /* MobiusCounterUITestsLaunchTests.swift */; };
+		96C5092A2C45814700F808B6 /* MobiusCore in Frameworks */ = {isa = PBXBuildFile; productRef = 96C509292C45814700F808B6 /* MobiusCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C5092A2C45814700F808B6 /* MobiusCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,7 @@
 				964A6F952C457F930098B229 /* MobiusCounterTests */,
 				964A6F9F2C457F930098B229 /* MobiusCounterUITests */,
 				964A6F832C457F910098B229 /* Products */,
+				96C509282C45814700F808B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +130,13 @@
 			path = MobiusCounterUITests;
 			sourceTree = "<group>";
 		};
+		96C509282C45814700F808B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +153,9 @@
 			dependencies = (
 			);
 			name = MobiusCounter;
+			packageProductDependencies = (
+				96C509292C45814700F808B6 /* MobiusCore */,
+			);
 			productName = MobiusCounter;
 			productReference = 964A6F822C457F910098B229 /* MobiusCounter.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 964A6F792C457F910098B229;
+			packageReferences = (
+				964A6FAF2C457FC40098B229 /* XCRemoteSwiftPackageReference "Mobius" */,
+			);
 			productRefGroup = 964A6F832C457F910098B229 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -582,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		964A6FAF2C457FC40098B229 /* XCRemoteSwiftPackageReference "Mobius" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/Mobius.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96C509292C45814700F808B6 /* MobiusCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 964A6FAF2C457FC40098B229 /* XCRemoteSwiftPackageReference "Mobius" */;
+			productName = MobiusCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 964A6F7A2C457F910098B229 /* Project object */;
 }
